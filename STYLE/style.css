@@ -1,0 +1,46 @@
+
+body{
+	background: #38e0e0;
+	font-size: 16px;
+}
+
+div p {
+    color: aliceblue;
+}
+
+.contenedorReloj{
+	width: 100%;
+	margin: 2em;
+
+}
+
+.contenedorReloj p{
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 0.3rem;
+	background-color: rgba(0,0,0,.5);
+	padding: 10px;
+	width: 100%;
+}
+
+.reloj{
+	text-align: center;
+	font-size: 4em;
+	background-color: rgba(0,0,0,.5);
+	padding: 20px;
+	width: 100%;
+}
+
+.caja-segundos{
+  display: inline-block;
+}
+
+.reloj.segundos, .reloj.ampm{
+	font-size: 2rem;
+	display: block;
+}
